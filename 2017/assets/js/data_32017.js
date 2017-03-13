@@ -1,5 +1,5 @@
 /*
---- Example
+--- Example 2
 #html
 <a id='autoid'>hii</a>
 #js
