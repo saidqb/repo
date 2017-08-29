@@ -1,10 +1,1 @@
-function urloe_link(urloe_key){
-window.onload = function() {
-var links, i, le;
-const set_urloe = document.querySelector('#urloe_shorten');
-links = set_urloe.getElementsByTagName('a');
-for (i = 0, le = links.length; i < le; i++) {
-links[i].href = "http://urloe.com/api/v1?key=" + urloe_key + "&url=" + links[i].href;
-}
-}
-}
+function urloe_link(e){window.onload=function(){var o,n,r;const t=document.querySelector("#urloe_shorten");for(o=t.getElementsByTagName("a"),n=0,r=o.length;r>n;n++)o[n].href="http://urloe.com/api/v1?key="+e+"&url="+o[n].href}}
